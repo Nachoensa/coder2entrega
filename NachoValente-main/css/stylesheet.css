@@ -1,0 +1,98 @@
+html{
+    /*height: auto;*/
+    /*width: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to top, #051937, #004b66, #1f8084, #73b495, #d3e5a9);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+label{ 
+    color: whitesmoke;
+}    
+
+
+
+.afclogoanimado{  
+
+    animation: afcanimado 3s linear 0s 1 reverse forwards;
+    padding: 0px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+
+
+@keyframes afcanimado { /*EJERCICIO PARA CLASE 10*/
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+
+footer {
+	
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+    justify-content: center;
+    text-decoration-color: white;
+    color: whitesmoke;
+
+   
+}
+
+.carousel-item .img-fluid {
+    width:600px;
+    height:400px;
+  }
+
+.h1text{
+    text-align:center;
+}
+.formstyle{
+    margin-top: 50px;
+}
+
+
+
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.textfooter {
+
+    font-size: 11px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    
+}
