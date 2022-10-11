@@ -1,0 +1,86 @@
+@import "operaciones";
+@import "buttons";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: auto;
+    width: auto;
+}
+
+body{
+    background-image: linear-gradient(to top, #051937, #004b66, #1f8084, #73b495, #d3e5a9);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    
+    margin-top: 50px;
+    div{
+        label{ 
+            color: whitesmoke;
+        }
+    }    
+}
+
+nav{
+    .justify-content-evenly {
+
+            justify-content: center;
+        }
+}
+
+.card{
+    
+    @include size (18rem,auto);
+    
+    
+}
+
+.afclogoanimado{  
+
+    animation: afcanimado 3s linear 0s 1 reverse forwards;
+    padding: 0px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+footer{
+	justify-content: center;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    
+    
+    span{
+        
+        @include fuente(11px,bold,white,whitesmoke);
+        font-style: oblique;
+        text-align: center;
+    }
+}
+
+.fotos:hover{
+    box-shadow:none;
+}
+
+
+.section_gracias{
+    h1{
+        text-align:center;
+        @include fuente(30px,bold,white,whitesmoke);
+        margin-top: 150px;
+    }
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+

@@ -1,0 +1,135 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@-webkit-keyframes afcanimado {
+  0% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+@keyframes afcanimado {
+  0% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  10% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.91);
+  }
+  17% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+  33% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+  45% {
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+.fa-instagram {
+  color: whitesmoke;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: auto;
+  width: auto;
+}
+
+body {
+  background-image: linear-gradient(to top, #051937, #004b66, #1f8084, #73b495, #d3e5a9);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+form {
+  margin-top: 50px;
+}
+form div label {
+  color: whitesmoke;
+}
+
+nav .justify-content-evenly {
+  justify-content: center;
+}
+
+.card {
+  height: auto;
+  width: 18rem;
+}
+
+.afclogoanimado {
+  animation: afcanimado 3s linear 0s 1 reverse forwards;
+  padding: 0px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+footer {
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+}
+footer span {
+  font-size: 11px;
+  font-weight: bold;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  color: whitesmoke;
+  font-style: oblique;
+  text-align: center;
+}
+
+.fotos:hover {
+  box-shadow: none;
+}
+
+.section_gracias h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  color: whitesmoke;
+  margin-top: 150px;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+}/*# sourceMappingURL=style.css.map */
