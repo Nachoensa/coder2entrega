@@ -10,6 +10,15 @@ html{
     width: auto;
 }
 
+.card_container{
+    .card{
+        min-width: 345px;
+    }
+    > div{ 
+        gap: 1rem; /* Esto da espacio entre tarjetas*/
+    }
+}
+
 body{
     background-image: linear-gradient(to top, #051937, #004b66, #1f8084, #73b495, #d3e5a9);
     background-size: cover;
@@ -18,7 +27,7 @@ body{
 
 form {
     
-    margin-top: 50px;
+    margin-top: 1px;
     div{
         label{ 
             color: whitesmoke;
